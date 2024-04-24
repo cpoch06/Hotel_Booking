@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+/* Header Layout */
+  section.header {
+    background-color: rgb(221, 136, 39);
+    width: 100%;
+    height: 10vh;
+    padding-top: 1rem;
+  }
+
+  img {
+    width: 15rem;
+    height: 14rem;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+  }
+  .nav-header a {
+    text-decoration: none;
+    color: #000;
+  }
+  .top-bar {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 7rem;
+    align-items: center;
+    border-radius: 25px;
+    border: 10px solid rgb(221, 136, 39);
+  }
+  .header-content {
+    background-color: rgb(221, 136, 39);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+  img.content {
+    margin-bottom: 40px;
+    max-width: 100%;
+    height: 450px;
+    width: 750px;
+    border-radius: 20px;
+  }
+  .content-text {
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3rem;
+  }
+
+  .content-text input{
+    width: 200px;
+    height: 50px;
+  }
+
+  .home-body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 46vh;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+    width: 400px;
+    height: 370px;
+    background-color: rgb(221, 136, 39);
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    align-items: center;
+    border-radius: 25px;
+    row-gap: 3rem;
+  }
+
+  .img1 > img,
+  .img2 > img,
+  .img3 > img {
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .img1 > h3,
+  .img2 > h3,
+  .img3 > h3 {
+    color: azure;
+  }
+/* footer layout */
+  footer {
+    background-color: rgb(12, 32, 93);
+    color: white;
+    padding: 2rem 0;
+    height: 25vh;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+  }
+  
+  .footer-column {
+    width: calc(33.33% - 1rem);
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 0.5rem;
+  }
+
+  
+  .footer-column h3{
+    font-size: 2rem;
+  }
+
+  .footer-column p{
+    font-size: 1.5rem;
+  }
+
+  .footer-column a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+/* price.php for room */
+
+  .booking-content{
+    margin-top: 10px;
+  }
+
+  .booking-container{
+    display: grid;
+    justify-content: space-around;
+    margin-top: 5px;
+  }
+
+  .booking-container h2{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 20px;
+  }
+
+  .figure{
+    margin-top: 20px;
+    background-color: rgb(221, 136, 39);
+    width: 380px;
+    height: 445px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.col {
+   margin-right: 40px;
+}
+
+.figure img{
+    margin-top: 15px;
+    width: 350px;
+    height: 250px;
+    margin-left: 15px;
+}
+
+.figcaption{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.booking-info {
+  display: inline-block;
+}
+
+.booking-info {
+  display: flex;
+  justify-content: center;
+}
+
+.booking-info input {
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  background-color: azure;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
+  font-size: 1.2rem;
+}
+
+.booking-info a{
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.booking-info input:hover {
+  background-color: rgb(221, 136, 39);
+  color: white;
+  border-color: white;
+}
+
+
+/* Booking Form  */
+main{
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form-body{
+    min-width: 80rem;
+    min-height: 50rem;
+    box-shadow: 0 0 1rem white;
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+    background-color: rgb(221, 136, 39);
+}
+
+.form-body h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section label{
+  font-size: 1.5rem;
+
+}
+
+.name{
+  text-align: center;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 40px;
+  background-color: azure;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
+  font-size: 1.5rem;
+}
+
+.age{
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 40px;
+  background-color: azure;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
+  font-size: 1.5rem;
+}
+.email{
+  text-align: center;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 40px;
+  background-color: azure;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
+  font-size: 1.5rem;
+}
+
+.room{
+  text-align: center;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 40px;
+  background-color: azure;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
+  font-size: 1.5rem;
+}
+
+.check-in-date{
+  text-align: center;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 40px;
+  background-color: azure;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
+  font-size: 1.5rem;
+}
+
+.submit-buttom{
+  display: block;
+  margin: 0 auto;
+  width: 25rem;
+  height: 5rem;
+  font-size: 1.5rem;
+}
+
+
+/* Room-detail */
+.text-left{
+  padding-top: 30px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  width: 190%;
+}
+
+.form-info{
+  display: flex;
+  margin-left: 500px;
+  align-items: center;
+}
+
+.form-info input{
+  width: 180px;
+  height: 60px;
+  background-color: azure;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
+  font-size: 1.2rem;
+}
+
+.col-3 p {
+  font-size: 1.8rem;
+}

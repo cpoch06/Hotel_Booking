@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+html {
+    font-size: 62.5%;
+}
+.signin h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 1rem;
+}
+.signin form{
+    position: relative;
+    background-color:rgb(221, 136, 39);
+    float: middle;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 35px;
+    height: 350px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.name{
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 30px;
+    top: 50px;
+    margin-left: 25px;
+}
+
+.password{
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 30px;
+    top: 150px;
+}
+.submit {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 20px;
+    top: 250px;
+    font-size: 20px;
+    background-color: rgb(235, 87, 87);
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.log-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 136, 39);;
+    font-size: 1.5rem;
+  }

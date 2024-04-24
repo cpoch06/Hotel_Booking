@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header{
+    height: 5rem;
+    background: rgb(48, 48, 48);
+    box-shadow: 0 0 1rem black;
+    display: grid;
+    place-content: center;
+    width: 100%;
+}
+
+footer h3{
+    margin: auto 0;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(65, 65, 65);
+}
+
+main{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    min-width: 50rem;
+    min-height: 30rem;
+    box-shadow: 0 0 1rem white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+
+form button{
+    cursor: pointer;
+    background-color: white;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 2rem;
+    border: none;
+    color: black;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 24rem);
+    padding: 1.5rem 0;
+}
+
+label{
+    justify-content: start;
+}
+
+input, select, option{
+    height: 50px;
+    width: 20rem;
+    background-color: dimgray;
+    border: none;
+    margin: .2rem 0;
+    padding: .2rem 0;
+}
+
+p{
+    text-align: start;
+    color: red;
+    font-size: smaller;
+}
+
+.section{
+    display: grid;
+    place-items: start;
+}
+
+.box{
+    display: flex;
+    justify-content: start;
+    padding: 0.2rem 0;
+}
+
+.box input{
+    width: 2rem;
+}
+
+.password, .remove{
+    color: white;
+    cursor: pointer;
+}
+
+.password:hover, .remove:hover{
+    color: rgb(92, 245, 250);
+    text-decoration: underline;
+}
+
+.error-message {
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,126 @@
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about-img > img {
+    width: 120%;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 2rem;
+  }
+  .about-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+  }
+  h4.mh {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 4rem;
+    background-image: linear-gradient(to bottom, #00ffe1, #0037ff);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+  }
+  .about-body {
+    width: 100%;
+    height: 40vh;
+    background-color: #23caa9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .about-body-history {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    height: 35vh;
+    background-color: white;
+    border-radius: 50px;
+  }
+  h4 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  .history {
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+  }
+  .founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ceo-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+  }
+  .ceo1 > img,
+  .ceo2 > img,
+  .ceo3 > img {
+    border-radius: 50px;
+  }
+  .ceo1,
+  .ceo2,
+  .ceo3 {
+    background-color: #db7b14;
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    row-gap: 5rem;
+    border-radius: 20px;
+  }
+  .location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(221, 136, 39);
+    row-gap: 4rem;
+  }
+  .location-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+  }
+  .instruction {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+  }
+  .location-img > img {
+    border-radius: 10px;
+    width: 300px;
+    height: 20vh;
+  }
+  .map-link {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  
+  
